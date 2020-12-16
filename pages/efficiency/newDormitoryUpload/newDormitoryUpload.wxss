@@ -1,0 +1,28 @@
+/* miniprogram/pages/efficiency/newDormitoryUpload/newDormitoryUpload.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  font-size: 20px;
+}
+.subf{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+page{
+  background: #FFFFFF;
+}
+.headerBg{
+  width: 600rpx;
+}
+
+.small{
+  font-size: 8px;
+}
+.create{
+  position: absolute;
+  font-size: 50rpx;
+  left: 90rpx;
+}

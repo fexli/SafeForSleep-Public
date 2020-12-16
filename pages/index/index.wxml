@@ -1,0 +1,20 @@
+<!--头部-->
+<scroll-view>
+  <view style="background:url('../../images/home.png')"></view>
+  <view class='headerContainer'>
+    <image src='../../images/index_head.jpg' class='headerBg'></image>
+  </view>
+  <button style="width:90%" bindtap="newDorUpload">>>>新建宿舍上报事件</button>
+  <!-- <button style="width:90%" bindtap="newCheckUp">>>>新建签到事件</button> -->
+  <view class='sectionContainer'>
+    <view class="sectionContainerInner">
+      <text>欢迎来到星灏的实验室·微信小程序Pa，这里是Index页面，以后如果有什么新奇&有用的小玩意儿应该会放在这里QwQ</text>
+      <text>本项目暂时还处于初期阶段，还有很多不足与需要改进的地方，希望大家多多谅解~\n</text>
+      <text>如果有喜欢/了解微信小程序/有一定编程基础的同学可以一起学习~(本人萌新一枚)\n\n</text>
+      <view bindtap="jumpToUpdatePage" class="updlog">戳这里>>>更新记录</view>
+      <text>\n</text>
+      <view bindtap="jumpToReportPage" class="updlog">戳这里>>>反馈bug/新奇脑洞</view>
+    </view>
+  </view>
+</scroll-view>
+

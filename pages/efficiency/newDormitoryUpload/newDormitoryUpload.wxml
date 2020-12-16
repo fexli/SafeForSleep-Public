@@ -1,0 +1,23 @@
+<!--miniprogram/pages/efficiency/newDormitoryUpload/newDormitoryUpload.wxml-->
+<view wx:if="{{hasAuthToCreate}}">
+  <view wx:if="{{hasCreated}}">
+    <view class="create">晚寝上报——{{createDate}}</view>
+    <view class="container">
+      <image src='../../../images/please.jpg' class='headerBg' mode="widthFix"></image>
+      <view>
+        <view>请同学们尽快完成晚寝上报！谢啦~</view>
+        <view class="small">事件id:{{retID}}</view>
+        <view class="small">发起人:{{crtStudentID}}</view>
+      </view>
+    </view>
+    <view>
+      <text style="font-size:20px">\n\n\n\n请点击右上角“...”选择“发送给朋友”</text>
+    </view>
+  </view>
+  <view wx:else>
+    {{waitingItem}}
+  </view>
+</view>
+<view wx:else>
+  <text>{{sorryItem}}</text>
+</view>
